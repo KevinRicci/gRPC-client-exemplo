@@ -1,0 +1,9 @@
+micronaut:
+  application:
+    name: grpcExempoClient
+
+grpc:
+  channels:
+    frete:
+      address: "localhost:50051"
+      plaintext: true
